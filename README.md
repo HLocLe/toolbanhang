@@ -160,28 +160,5 @@ mvn verify
 - **Repository Name**: toolbanhang
 - **Visibility**: Public
 
-## Các Tính Năng Đang Phát Triển
 
-Dự án hiện đang mở và có 1 issue đang chờ xử lý. Vui lòng tham khảo phần Issues để biết thêm chi tiết.
 
-## Hỗ Trợ Và Đóng Góp
-
-Nếu bạn gặp bất kỳ vấn đề nào hoặc muốn đóng góp cho dự án, vui lòng:
-1. Tạo một Issue để báo cáo lỗi hoặc đề xuất tính năng
-2. Tạo một Pull Request với các cải tiến của bạn
-
-## Giấy Phép
-
-Dự án này hiện không có giấy phép cụ thể. Vui lòng liên hệ chủ sở hữu repository để biết thêm chi tiết.
-
-## Thông Tin Tác Giả
-
-- **Chủ Sở Hữu**: HLocLe
-- **Ngày Tạo**: 18 tháng 8 năm 2025
-- **Lần Cập Nhật Cuối Cùng**: 31 tháng 8 năm 2025
-
-## Liên Hệ
-
-Để liên hệ hoặc tìm hiểu thêm về dự án, vui lòng truy cập:
-- GitHub Profile: https://github.com/HLocLe
-- Repository: https://github.com/HLocLe/toolbanhang
