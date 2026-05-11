@@ -1,10 +1,20 @@
-version: "3.8"
 services:
+  mongo:
+    image: mongo:7
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: l@c123
+    volumes:
+      - ./mongo-data:/data/db
+    restart: unless-stopped
+
   app:
     build: .
     environment:
-      - SPRING_PROFILES_ACTIVE=prod
+      SPRING_PROFILES_ACTIVE: prod
+      SPRING_DATA_MONGODB_URI: "mongodb://app:l%40c123@mongo:27017/ChaoLongTool?authSource=ChaoLongTool"
+    depends_on:
+      - mongo
     ports:
-      - "80:8080"
+      - "8080:8080"
     restart: unless-stopped
-
